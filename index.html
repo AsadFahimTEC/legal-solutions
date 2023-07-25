@@ -14,10 +14,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&display=swap" rel="stylesheet">
+
     <!--poppins google font-->
     <style>
         .font-poppins{
             font-family: 'Poppins', sans-serif;
+        }
+
+        .font-garamond{
+            font-family: 'EB Garamond', serif;
         }
     </style>
 
@@ -76,7 +84,7 @@
         </div>
         
         <!--banner section-->
-        <section>
+        <section class="font-garamond">
             <div class="bg-hero-bg bg-no-repeat min-h-[calc(100vh-100px)] ">
                 
                 
@@ -99,53 +107,62 @@
 
     <main>
         <!--different law section-->
-        <section class="my-10">
+        <section class="font-garamond  my-10">
             <h3 class="text-center text-2xl text-[#414040] font-extrabold">The Legal Practice Area</h3>
-            <p class="text-center text-xs text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <p class="text-center text-sm text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
-            <div class="flex flex-col lg:flex-row">
-                <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="./images/business.png" alt="Shoes" /></figure>
+            <div class="my-20 mx-10 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div class="card w-100 bg-base-100 shadow-xl border border-[1px solid #E7E7E7]">
+                    <figure><img class="mt-5" src="./images/business.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="text-center text-2xl font-extrabold text-[#414040]">Business Law</h2>
                       <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     </div>
-
-                    <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="./images/business.png" alt="Shoes" /></figure>
-                        <div class="card-body">
-                          <h2 class="text-center text-2xl font-extrabold text-[#414040]">Business Law</h2>
-                          <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                        </div>
-
-                        <div class="card w-96 bg-base-100 shadow-xl">
-                            <figure><img src="./images/business.png" alt="Shoes" /></figure>
-                            <div class="card-body">
-                              <h2 class="text-center text-2xl font-extrabold text-[#414040]">Business Law</h2>
-                              <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                            </div>
-
-                            <div class="card w-96 bg-base-100 shadow-xl">
-                                <figure><img src="./images/business.png" alt="Shoes" /></figure>
-                                <div class="card-body">
-                                  <h2 class="text-center text-2xl font-extrabold text-[#414040]">Business Law</h2>
-                                  <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                                </div>
-
-                                <div class="card w-96 bg-base-100 shadow-xl">
-                                    <figure><img src="./images/business.png" alt="Shoes" /></figure>
-                                    <div class="card-body">
-                                      <h2 class="text-center text-2xl font-extrabold text-[#414040]">Business Law</h2>
-                                      <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                                    </div>
-
-                                    <div class="card w-96 bg-base-100 shadow-xl">
-                                        <figure><img src="./images/business.png" alt="Shoes" /></figure>
-                                        <div class="card-body">
-                                          <h2 class="text-center text-2xl font-extrabold text-[#414040]">Business Law</h2>
-                                          <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                                        </div>
                   </div>
+
+                  <div class="card w-100 bg-base-100 shadow-xl border border-[1px solid #E7E7E7]">
+                    <figure><img class="mt-5" src="./images/criminal.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-2xl font-extrabold text-[#414040]">Criminal Law</h2>
+                      <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                  </div>
+
+                  <div class="card w-100 bg-base-100 shadow-xl border border-[1px solid #E7E7E7]">
+                    <figure><img class="mt-5" src="./images/child.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-2xl font-extrabold text-[#414040]">Child Support</h2>
+                      <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                  </div>
+
+                  <div class="card w-100 bg-base-100 shadow-xl border border-[1px solid #E7E7E7]">
+                    <figure><img class="mt-5" src="./images/education.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-2xl font-extrabold text-[#414040]">Education Law</h2>
+                      <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                  </div>
+
+                  <div class="card w-100 bg-base-100 shadow-xl border border-[1px solid #E7E7E7]">
+                    <figure><img class="mt-5" src="./images/divorce.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-2xl font-extrabold text-[#414040]">Divorce Law</h2>
+                      <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                  </div>
+
+                  <div class="card w-100 bg-base-100 shadow-xl border border-[1px solid #E7E7E7]">
+                    <figure><img class="mt-5" src="./images/tax.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-2xl font-extrabold text-[#414040]">Tax Law</h2>
+                      <p class="text-[#707070] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                  </div>
+
+                  
+
+                  
             </div>
         </section>
     </main>
